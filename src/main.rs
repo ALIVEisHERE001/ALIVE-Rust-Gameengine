@@ -1,4 +1,4 @@
-// ALIVE-Rust-Gameengine - Revolutionary game engine
+// ALIVE-Rust-Gameengine - Revolutionary gameengine
 // Created by ALIVE 3.0 ULTIMATE COMPLETE AI
 
 use std::time::{Duration, Instant};
@@ -14,13 +14,13 @@ impl GameengineSystem {
         println!("🚀 Initializing ALIVE-Rust-Gameengine...");
         Self {
             name: String::from("ALIVE-Rust-Gameengine"),
-            project_type: String::from("game_engine"),
+            project_type: String::from("gameengine"),
             start_time: Instant::now(),
         }
     }
     
     fn execute(&self) -> Result<String, Box<dyn std::error::Error>> {
-        println!("⚡ Executing revolutionary game_engine system");
+        println!("⚡ Executing revolutionary gameengine system");
         println!("📊 Runtime: {:?}", self.start_time.elapsed());
         
         // Core functionality
